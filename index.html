@@ -12,30 +12,44 @@
     <link rel="stylesheet" href="assets/css/styles_eureka.css">
 </head>
 <body>
+
     <!-- En-tête du site : logo + menu -->
     <header class="site-header">
         <div class="container header-content">
+            <!-- Logo -->
             <a href="#accueil" class="logo" aria-label="Retour à l'accueil EUREKA Intérim Mayotte">
-                <img src="assets/img/logo_eureka.webp" alt="Logo EUREKA Mayotte" class="logo-img">
+            <img src="assets/img/logo_eureka.webp" alt="Logo EUREKA Mayotte" class="logo-img">
 
-                <div class="logo-text-group">
-                    <span class="logo-main">EUREKA</span>
-                    <span class="logo-sub">Mayotte</span>
-                </div>
+            <div class="logo-text-group">
+                <span class="logo-main">EUREKA</span>
+                <span class="logo-sub">Mayotte</span>
+            </div>
             </a>
 
+            <!-- Checkbox caché pour contrôler le menu -->
+            <input
+            type="checkbox"
+            id="nav-toggle"
+            class="nav-toggle"
+            aria-label="Ouvrir le menu de navigation">
 
+            <!-- Bouton burger -->
+            <label for="nav-toggle" class="nav-toggle-btn" aria-hidden="true">
+            <span></span><span></span><span></span>
+            </label>
+
+            <!-- Navigation -->
             <nav class="main-nav" aria-label="Navigation principale">
-                <ul>
-                    <li><a href="#accueil" class="nav-link" aria-current="page">Accueil</a></li>
-                    <li><a href="candidats" class="nav-link">Candidats</a></li>
-                    <li><a href="entreprises" class="nav-link">Entreprises</a></li>
-                    <!-- <li><a href="#offres" class="nav-link">Offres d'emploi</a></li> -->
-                    <li><a href="contact" class="nav-link">Contact</a></li>
-                </ul>
+            <ul>
+                <li><a href="#accueil" class="nav-link" aria-current="page">Accueil</a></li>
+                <li><a href="candidats" class="nav-link">Candidats</a></li>
+                <li><a href="entreprises" class="nav-link">Entreprises</a></li>
+                <li><a href="contact" class="nav-link">Contact</a></li>
+            </ul>
             </nav>
         </div>
     </header>
+
 
     <!-- Contenu principal -->
     <main id="accueil">
@@ -609,5 +623,21 @@
             <p><a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const navToggle = document.getElementById("nav-toggle");
+            const navLinks = document.querySelectorAll(".main-nav a");
+
+            navLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                if (navToggle && navToggle.checked) {
+                navToggle.checked = false;
+                }
+            });
+            });
+        });
+    </script>
+
 </body>
 </html>

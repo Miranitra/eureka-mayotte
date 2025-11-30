@@ -1,0 +1,182 @@
+[
+  {
+    "id": "EKM-001",
+    "titre": "Manoeuvre BTP (H/F)",
+    "lieu": "Mamoudzou",
+    "secteur": "btp",
+    "secteurLabel": "BTP / Construction",
+    "contrat": "interim",
+    "extrait": "Participation aux travaux de chantier, manutention, préparation des zones de travail."
+  },
+  {
+    "id": "EKM-002",
+    "titre": "Agent administratif (H/F)",
+    "lieu": "Dembéni",
+    "secteur": "admin",
+    "secteurLabel": "Administratif / Tertiaire",
+    "contrat": "cdd",
+    "extrait": "Gestion administrative, accueil téléphonique et saisie informatique."
+  },
+  {
+    "id": "EKM-003",
+    "titre": "Chauffeur livreur VL (H/F)",
+    "lieu": "Kawéni",
+    "secteur": "logistique",
+    "secteurLabel": "Logistique / Transport",
+    "contrat": "interim",
+    "extrait": "Livraison de marchandises et suivi des tournées sur Mayotte."
+  },
+  {
+    "id": "EKM-004",
+    "titre": "Agent de propreté (H/F)",
+    "lieu": "Sada",
+    "secteur": "proprete",
+    "secteurLabel": "Propreté / Services",
+    "contrat": "interim",
+    "extrait": "Nettoyage de locaux professionnels et entretien des surfaces."
+  },
+  {
+    "id": "EKM-005",
+    "titre": "Serveur / Serveuse",
+    "lieu": "Mtsamboro",
+    "secteur": "restauration",
+    "secteurLabel": "Hôtellerie / Restauration",
+    "contrat": "cdd",
+    "extrait": "Service en salle, prise de commande et accueil des clients."
+  },
+  {
+    "id": "EKM-006",
+    "titre": "Aide-soignant (H/F)",
+    "lieu": "Chiconi",
+    "secteur": "sante",
+    "secteurLabel": "Santé",
+    "contrat": "cdi",
+    "extrait": "Accompagnement des patients, soins d'hygiène et de confort."
+  },
+  {
+    "id": "EKM-007",
+    "titre": "Maçon traditionnel (H/F)",
+    "lieu": "Bandraboua",
+    "secteur": "btp",
+    "secteurLabel": "BTP / Construction",
+    "contrat": "interim",
+    "extrait": "Montage de murs, coffrage, finitions et travaux de rénovation."
+  },
+  {
+    "id": "EKM-008",
+    "titre": "Assistant RH (H/F)",
+    "lieu": "Mamoudzou",
+    "secteur": "admin",
+    "secteurLabel": "Administratif / Tertiaire",
+    "contrat": "cdd",
+    "extrait": "Gestion des dossiers du personnel et suivi des absences."
+  },
+  {
+    "id": "EKM-009",
+    "titre": "Magasinier préparateur de commandes (H/F)",
+    "lieu": "Koungou",
+    "secteur": "logistique",
+    "secteurLabel": "Logistique / Transport",
+    "contrat": "interim",
+    "extrait": "Préparation des commandes et gestion des stocks."
+  },
+  {
+    "id": "EKM-010",
+    "titre": "Agent d'entretien polyvalent",
+    "lieu": "Dzoumogné",
+    "secteur": "proprete",
+    "secteurLabel": "Propreté / Services",
+    "contrat": "interim",
+    "extrait": "Nettoyage général des bâtiments et zones communes."
+  },
+  {
+    "id": "EKM-011",
+    "titre": "Cuisinier collectif (H/F)",
+    "lieu": "Tsingoni",
+    "secteur": "restauration",
+    "secteurLabel": "Hôtellerie / Restauration",
+    "contrat": "cdi",
+    "extrait": "Préparation de menus et gestion de la cuisine collective."
+  },
+  {
+    "id": "EKM-012",
+    "titre": "Infirmier diplômé d'État (H/F)",
+    "lieu": "Kani-Kéli",
+    "secteur": "sante",
+    "secteurLabel": "Santé",
+    "contrat": "interim",
+    "extrait": "Prise en charge des soins infirmiers et suivi des patients."
+  },
+  {
+    "id": "EKM-013",
+    "titre": "Électricien bâtiment (H/F)",
+    "lieu": "Pamandzi",
+    "secteur": "btp",
+    "secteurLabel": "BTP / Construction",
+    "contrat": "interim",
+    "extrait": "Installation, maintenance et dépannage électrique."
+  },
+  {
+    "id": "EKM-014",
+    "titre": "Secrétaire polyvalente (H/F)",
+    "lieu": "Mamoudzou",
+    "secteur": "admin",
+    "secteurLabel": "Administratif / Tertiaire",
+    "contrat": "cdd",
+    "extrait": "Accueil, gestion des appels et saisies administratives."
+  },
+  {
+    "id": "EKM-015",
+    "titre": "Cariste (H/F)",
+    "lieu": "Longoni",
+    "secteur": "logistique",
+    "secteurLabel": "Logistique / Transport",
+    "contrat": "interim",
+    "extrait": "Chargement, déchargement et déplacements en chariot élévateur."
+  },
+  {
+    "id": "EKM-016",
+    "titre": "Agent de nettoyage industriel (H/F)",
+    "lieu": "Mtsangamouji",
+    "secteur": "proprete",
+    "secteurLabel": "Propreté / Services",
+    "contrat": "interim",
+    "extrait": "Nettoyage de zones industrielles et utilisation d'engins spécifiques."
+  },
+  {
+    "id": "EKM-017",
+    "titre": "Plongeur en restauration (H/F)",
+    "lieu": "Mamoudzou",
+    "secteur": "restauration",
+    "secteurLabel": "Hôtellerie / Restauration",
+    "contrat": "interim",
+    "extrait": "Nettoyage de la vaisselle et entretien de la cuisine."
+  },
+  {
+    "id": "EKM-018",
+    "titre": "Secrétaire médicale (H/F)",
+    "lieu": "Kaweni",
+    "secteur": "sante",
+    "secteurLabel": "Santé",
+    "contrat": "cdi",
+    "extrait": "Accueil des patients, gestion des dossiers et prises de rendez-vous."
+  },
+  {
+    "id": "EKM-019",
+    "titre": "Chef d'équipe BTP (H/F)",
+    "lieu": "Passamainty",
+    "secteur": "btp",
+    "secteurLabel": "BTP / Construction",
+    "contrat": "cdi",
+    "extrait": "Encadrement d'équipe, gestion du chantier et rapports journaliers."
+  },
+  {
+    "id": "EKM-020",
+    "titre": "Assistante de direction (H/F)",
+    "lieu": "Mamoudzou",
+    "secteur": "admin",
+    "secteurLabel": "Administratif / Tertiaire",
+    "contrat": "cdi",
+    "extrait": "Organisation, gestion de planning, rédaction et coordination générale."
+  }
+]

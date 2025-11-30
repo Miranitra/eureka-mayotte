@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | EUREKA Mayotte</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien vers ta feuille de style globale -->
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+<body class="page-contact">
+
+    <!-- ======= Header (même que les autres pages) ======= -->
+    <header class="topbar">
+        <div class="topbar-container">
+
+            <div class="topbar-brand">
+                <!-- Logo -->
+                <a href="/" class="topbar-logo">
+                    <img src="../assets/img/logo_eureka.webp" alt="EUREKA MAYOTTE">
+                </a>
+
+                <!-- Titre EUREKA Mayotte -->
+                <div class="topbar-title">
+                    <span class="title-eureka">EUREKA</span>
+                    <span class="title-mayotte">MAYOTTE</span>
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <nav class="topbar-nav">
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ======= Hero Contact ======= -->
+        <section class="hero-contact" aria-labelledby="hero-contact-titre">
+            <div class="hero-contact-overlay"></div>
+
+            <div class="container hero-contact-content">
+
+                <!-- Texte à gauche -->
+                <div class="hero-contact-text">
+                    <p class="hero-contact-eyebrow">Contactez-nous</p>
+
+                    <h1 id="hero-contact-titre" class="hero-contact-title">
+                        Entrez en contact avec notre équipe
+                    </h1>
+
+                    <p class="hero-contact-intro">
+                        EUREKA Mayotte accompagne les entreprises dans leurs besoins en recrutement,
+                        gestion RH et solutions d’emploi sur-mesure.
+                    </p>
+
+                    <ul class="hero-contact-points">
+                        <li>Besoin urgent de personnel intérimaire</li>
+                        <li>Recrutement CDI / CDD</li>
+                        <li>Questions sur nos services</li>
+                    </ul>
+
+                    <a href="#contact-section" class="btn btn-primary">
+                        Nous écrire
+                    </a>
+                </div>
+
+                <!-- Image à droite, uniquement l’image -->
+                <div class="hero-contact-illustration">
+                    <img src="../assets/img/contact-1280.webp"
+                        alt="Équipe EUREKA Mayotte"
+                        class="hero-contact-image">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ======= Section Contact ======= -->
+        <section id="contact-section" class="contact-section" aria-labelledby="contact-titre">
+            <div class="container contact-grid">
+
+                <!-- Colonne formulaire -->
+                <div class="contact-form-wrapper">
+                    <header class="contact-header">
+                        <h2 id="contact-titre" class="contact-title">Formulaire de contact</h2>
+                        <p class="contact-intro">
+                            Décrivez-nous votre besoin, nous vous répondrons dans les meilleurs délais.
+                        </p>
+                    </header>
+
+                    <form class="contact-form" action="#" method="post">
+                        <!-- TODO : adapter l'attribut action vers ton outil (Formspree, API, etc.) -->
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prenom">Prénom *</label>
+                                <input type="text" id="prenom" name="prenom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nom">Nom *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="societe">Société</label>
+                            <input type="text" id="societe" name="societe" placeholder="Nom de votre entreprise">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse e-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="+262 ...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="objet">Objet de la demande *</label>
+                            <select id="objet" name="objet" required>
+                                <option value="">Sélectionnez une option</option>
+                                <option value="besoin-personnel">Besoin de personnel intérimaire</option>
+                                <option value="recrutement-cdi-cdd">Recrutement CDI / CDD</option>
+                                <option value="infos-services">Informations sur nos services</option>
+                                <option value="autre">Autre demande</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group form-group-inline">
+                            <input type="checkbox" id="rgpd" name="rgpd" required>
+                            <label for="rgpd" class="label-inline">
+                                J’accepte que mes données soient utilisées pour être contacté(e)
+                                dans le cadre de ma demande. 
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Envoyer ma demande
+                        </button>
+
+                        <p class="form-helper">
+                            * Champs obligatoires
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Colonne infos contact -->
+                <aside class="contact-infos">
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">Coordonnées</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-label">Téléphone</span>
+                                <a href="tel:+262000000" class="contact-value">+262 XX XX XX XX</a>
+                            </li>
+                            <li>
+                                <span class="contact-label">E-mail</span>
+                                <a href="mailto:contact@eureka-mayotte.com" class="contact-value">
+                                    contact@eureka-mayotte.com
+                                </a>
+                            </li>
+                            <li>
+                                <span class="contact-label">Adresse</span>
+                                <span class="contact-value">
+                                    EUREKA Mayotte<br>
+                                    Adresse complète à renseigner<br>
+                                    97600 Mayotte
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">Horaires d’ouverture</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-label">Lundi - Vendredi</span>
+                                <span class="contact-value">08h00 - 12h00 / 13h30 - 17h00</span>
+                            </li>
+                            <li>
+                                <span class="contact-label">Samedi</span>
+                                <span class="contact-value">Sur rendez-vous</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-card contact-card-accent">
+                        <h3 class="contact-card-title">Besoin urgent de personnel ?</h3>
+                        <p class="contact-card-text">
+                            Indiquez le caractère urgent de votre demande dans le message. 
+                            Notre équipe vous recontactera en priorité.
+                        </p>
+                    </div>
+                </aside>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ======= Footer (même que tes autres pages) ======= -->
+    <!-- Footer simple provisoire -->
+    <footer class="site-footer" aria-label="Pied de page EUREKA MAYOTTE">
+        <div class="container footer-grid">
+
+            <!-- Colonne 1 : Logo + présentation -->
+            <div class="footer-brand">
+            <img src="../assets/img/logo_eureka_dore.png" alt="Logo EUREKA Mayotte" class="footer-logo" loading="lazy">
+            <p>
+                EREKA MAYOTTE - Solutions pour l'emploi, l'insertion, l'intérim, et le recrutement.
+            </p>
+            </div>
+
+            <!-- Colonne 2 : Liens du menu -->
+            <nav class="footer-nav" aria-label="Liens utiles">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#apropos">Candidats</a></li>
+                <li><a href="#valeurs">Entreprises</a></li>
+                <li><a href="#entites">Offres d'emploi</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+
+            <!-- Colonne 3 : Coordonnées -->
+            <div class="footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li><i class="icon">📧</i> <a href="mailto:contact@tondomaine.com">contact@alomayjob.com</a></li>
+                <li><i class="icon">📞</i> <a href="tel:+262XXXXXXX">+262 6 39 61 38 39</a></li>
+                <li><i class="icon">📍</i> Mayotte (976)</li>
+            </ul>
+            <div class="contact-social">
+                <h3>Réseaux</h3>
+
+                <ul class="social-links social-inline">
+                <li>
+                    <a href="#" aria-label="LinkedIn ALOMAYJOB">
+                    <img src="../assets/img/social/logo_linkedin_trans.png" alt="Logo LinkedIn" class="social-icon">
+                    LinkedIn
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" aria-label="Facebook ALOMAYJOB">
+                    <img src="../assets/img/social/logo_facebook.png" alt="Logo Facebook" class="social-icon">
+                    Facebook
+                    </a>
+                </li>
+                </ul>
+
+            </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Ligne du bas -->
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> EUREKA Mayotte — Tous droits réservés</p>
+            <p><a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

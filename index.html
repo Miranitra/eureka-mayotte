@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EUREKA Mayotte | Agence d'intérim et recrutement</title>
+
+    <meta name="description" content="EUREKA Mayotte accompagne les entreprises et les candidats dans le recrutement, l'intérim et la gestion des ressources humaines à Mayotte.">
+
+    <!-- Tu pourras ajouter plus de meta (og:, favicon...) plus tard -->
+    <link rel="stylesheet" href="assets/css/styles_eureka.css">
+</head>
+<body>
+    <!-- En-tête du site : logo + menu -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="#accueil" class="logo" aria-label="Retour à l'accueil EUREKA Intérim Mayotte">
+                <img src="assets/img/logo_eureka.webp" alt="Logo EUREKA Mayotte" class="logo-img">
+
+                <div class="logo-text-group">
+                    <span class="logo-main">EUREKA</span>
+                    <span class="logo-sub">Mayotte</span>
+                </div>
+            </a>
+
+
+            <nav class="main-nav" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#accueil" class="nav-link" aria-current="page">Accueil</a></li>
+                    <li><a href="/candidats/index.html" class="nav-link">Candidats</a></li>
+                    <li><a href="/entreprises/index.html" class="nav-link">Entreprises</a></li>
+                    <!-- <li><a href="#offres" class="nav-link">Offres d'emploi</a></li> -->
+                    <li><a href="/contact/index.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main id="accueil">
+        <!-- Section hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="hero-kicker">Agence d'intérim à Mayotte</p>
+                    <h1 id="hero-title">
+                        Votre partenaire emploi pour l'intérim et le recrutement à Mayotte
+                    </h1>
+                    <p class="hero-subtitle">
+                        EUREKA Intérim Mayotte met en relation les entreprises et les talents locaux
+                        dans les secteurs du BTP, des services, de la logistique, de l'environnement et bien plus encore.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="/candidats/index.html" class="btn btn-primary">Je suis candidat</a>
+                        <a href="/entreprises/index.html" class="btn btn-secondary">Je suis une entreprise</a>
+                    </div>
+                </div>
+
+                <picture class="hero-image">
+                    <!-- Version WebP -->
+                    <source type="image/webp" srcset="
+                        assets/img/banner_eureka-1920.webp 1920w,
+                        assets/img/banner_eureka-1280.webp 1280w,
+                        assets/img/banner_eureka-640.webp 640w
+                    ">
+
+                    <!-- Fallback JPG -->
+                    <source type="image/jpeg" srcset="
+                        assets/img/banner_eureka-1920.jpg 1920w,
+                        assets/img/banner_eureka-1280.jpg 1280w,
+                        assets/img/banner_eureka-640.jpg 640w
+                    ">
+
+                    <!-- Image par défaut (mobile) -->
+                    <img 
+                        src="assets/img/banner_eureka-640.jpg"
+                        alt="Bannière EUREKA Intérim Mayotte : travailleurs et carte de Mayotte"
+                        class="hero-img">
+                </picture>
+
+            </div>
+        </section>
+        <!--SEcteurs Présentation -->
+        <section id="presentation" class="section-intro" aria-labelledby="intro-title">
+            <div class="container section-intro-grid">
+                <div class="section-intro-text">
+                    <p class="intro-tag">Qui sommes-nous ?</p>
+                    <h2 id="intro-title">EUREKA Intérim Mayotte, votre partenaire emploi de proximité</h2>
+                    <p class="intro-lead">
+                        Basée à Mayotte, EUREKA Intérim accompagne les <strong>entreprises</strong> et les 
+                        <strong>candidats</strong> dans leurs recrutements, missions d’intérim et besoins en renfort d’équipe.
+                    </p>
+                    <p>
+                        Nous connaissons le <strong>marché de l’emploi mahorais</strong>, ses réalités et ses enjeux : 
+                        nous sélectionnons des profils sérieux et motivés, et proposons aux candidats des missions adaptées 
+                        à leurs compétences et à leurs projets.
+                    </p>
+                </div>
+
+                <div class="section-intro-highlights" aria-label="Points forts d'EUREKA Intérim Mayotte">
+                    <article class="intro-card intro-card--candidats">
+                        <h3>Pour les candidats</h3>
+                        <ul>
+                            <li>Missions d’intérim, CDD et CDI</li>
+                            <li>Accompagnement dans votre recherche d’emploi</li>
+                            <li>Accès à des offres locales variées</li>
+                        </ul>
+                    </article>
+
+                    <article class="intro-card intro-card--entreprises">
+                        <h3>Pour les entreprises</h3>
+                        <ul>
+                            <li>Réponse rapide à vos besoins en personnel</li>
+                            <li>Présélection et suivi des candidats</li>
+                            <li>Gestion administrative simplifiée</li>
+                        </ul>
+                    </article>
+
+                    <article class="intro-card intro-card--valeur">
+                        <h3>Notre valeur ajoutée</h3>
+                        <ul>
+                            <li>Expertise du territoire mahorais</li>
+                            <li>Équipe disponible et réactive</li>
+                            <li>Réseau de talents dans plusieurs secteurs</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--Secteurs d'activité-->
+        <section id="secteurs" class="section-secteurs">
+            <h2 class="secteurs-title">Nos secteurs d’activité</h2>
+            <p class="secteurs-subtitle">
+                EUREKA Intérim Mayotte intervient dans plusieurs domaines pour répondre aux besoins des entreprises et aux compétences des candidats.
+            </p>
+
+            <div class="secteurs-grid">
+                <article class="secteur-card secteur-card--btp">
+                <div class="secteur-icon">
+                    <!-- SVG BTP -->
+                    <!-- Tu peux laisser l’emoji si tu veux pour l’instant -->
+                    🏗️
+                </div>
+                <h3>BTP & Travaux Publics</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--admin">
+                <div class="secteur-icon">🏛️</div>
+                <h3>Administration & Collectivités</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--transport">
+                <div class="secteur-icon">🚚</div>
+                <h3>Logistique & Transport</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--commerce">
+                <div class="secteur-icon">🛒</div>
+                <h3>Commerce & Vente</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--nettoyage">
+                <div class="secteur-icon">🧹</div>
+                <h3>Nettoyage & Entretien</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--securite">
+                <div class="secteur-icon">🛡️</div>
+                <h3>Sécurité</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--restauration">
+                <div class="secteur-icon">🍽️</div>
+                <h3>Restauration & Hôtellerie</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--social">
+                <div class="secteur-icon">👨‍👩‍👧</div>
+                <h3>Éducation & Social</h3>
+                </article>
+
+                <article class="secteur-card secteur-card--agri">
+                <div class="secteur-icon">🌿</div>
+                <h3>Agriculture & Environnement</h3>
+                </article>
+            </div>
+        </section>
+
+        <!--Offres d'emploi-->
+        <section id="offres" class="section-offres">
+            <div class="offres-container">
+                <h2 class="offres-title">Offres d’emploi récentes</h2>
+                <p class="offres-subtitle">
+                Voici quelques exemples de missions et postes proposés actuellement par EUREKA Intérim Mayotte.
+                </p>
+
+                <div class="offres-grid">
+                <!-- Offre 1 -->
+                <article class="offre-card">
+                    <div class="offre-image">
+                        <picture class="offre-image">
+  
+                        <!-- Version WebP (prioritaire) -->
+                        <source
+                            type="image/webp"
+                            srcset="
+                            assets/img/assistant_administratif-1280.webp 1280w,
+                            assets/img/assistant_administratif-960.webp 960w,
+                            assets/img/assistant_administratif-640.webp 640w
+                            "
+                            sizes="(max-width: 640px) 100vw,
+                                (max-width: 960px) 50vw,
+                                33vw">
+
+                        <!-- Version JPG (fallback) -->
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                            assets/img/assistant_administratif-1280.jpg 1280w,
+                            assets/img/assistant_administratif-960.jpg 960w,
+                            assets/img/assistant_administratif-640.jpg 640w
+                            "
+                            sizes="(max-width: 640px) 100vw,
+                                (max-width: 960px) 50vw,
+                                33vw">
+
+                        <!-- Fallback ultime (obligatoire) -->
+                        <img
+                            src="assets/img/assistant_administratif-640.jpg"
+                            alt="Agent administratif en bureau à Mayotte"
+                            width="640"
+                            height="480"
+                            loading="lazy">
+                        </picture>
+
+                    </div>
+                    <div class="offre-body">
+                        <h3 class="offre-name">Agent administratif (H/F)</h3>
+                        <p class="offre-meta">Mamoudzou · Intérim</p>
+                        <p class="offre-desc">
+                            Accueil, gestion de dossiers, saisie et classement au sein d’une structure locale.
+                        </p>
+                        <a href="#" class="offre-link">Voir l’offre</a>
+                    </div>
+                </article>
+
+                <!-- Offre 2 -->
+                <article class="offre-card">
+                    <div class="offre-image">
+                        <picture class="offre-image">
+  
+                        <!-- Version WebP (prioritaire) -->
+                        <source
+                            type="image/webp"
+                            srcset="
+                            assets/img/manoeuvre_BTP-1280.webp 1280w,
+                            assets/img/manoeuvre_BTP-960.webp 960w,
+                            assets/img/manoeuvre_BTP-640.webp 640w
+                            "
+                            sizes="(max-width: 640px) 100vw,
+                                (max-width: 960px) 50vw,
+                                33vw">
+
+                        <!-- Version JPG (fallback) -->
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                            assets/img/manoeuvre_BTP-1280.jpg 1280w,
+                            assets/img/manoeuvre_BTP-960.jpg 960w,
+                            assets/img/manoeuvre_BTP-640.jpg 640w
+                            "
+                            sizes="(max-width: 640px) 100vw,
+                                (max-width: 960px) 50vw,
+                                33vw">
+
+                        <!-- Fallback ultime (obligatoire) -->
+                        <img
+                            src="assets/img/manoeuvre_BTP-640.jpg"
+                            alt="Manœuvre BTP sur chantier à Mayotte"
+                            width="640"
+                            height="480"
+                            loading="lazy">
+                        </picture>
+
+                    </div>
+                    <div class="offre-body">
+                        <h3 class="offre-name">Manœuvre BTP (H/F)</h3>
+                        <p class="offre-meta">Koungou · Intérim</p>
+                        <p class="offre-desc">
+                            Aide sur chantier, manutention, préparation des matériaux et nettoyage des zones de travail.
+                        </p>
+                        <a href="#" class="offre-link">Voir l’offre</a>
+                    </div>
+                </article>
+
+                <!-- Offre 3 -->
+                <article class="offre-card">
+                    <div class="offre-image">
+                       
+                        <picture class="offre-image">
+  
+                            <!-- Version WebP (prioritaire) -->
+                            <source
+                                type="image/webp"
+                                srcset="
+                                assets/img/chauffeur_livreur-1280.webp 1280w,
+                                assets/img/chauffeur_livreur-960.webp 960w,
+                                assets/img/chauffeur_livreur-640.webp 640w
+                                "
+                                sizes="(max-width: 640px) 100vw,
+                                    (max-width: 960px) 50vw,
+                                    33vw">
+
+                            <!-- Version JPG (fallback) -->
+                            <source
+                                type="image/jpeg"
+                                srcset="
+                                assets/img/chauffeur_livreur-1280.jpg 1280w,
+                                assets/img/chauffeur_livreur-960.jpg 960w,
+                                assets/img/chauffeur_livreur-640.jpg 640w
+                                "
+                                sizes="(max-width: 640px) 100vw,
+                                    (max-width: 960px) 50vw,
+                                    33vw">
+
+                            <!-- Fallback ultime (obligatoire) -->
+                            <img
+                                src="assets/img/chauffeur_livreur-640.jpg"
+                                alt="Livreur véhicule léger à Mayotte"
+                                width="640"
+                                height="480"
+                                loading="lazy">
+                        </picture>
+
+                    </div>
+                    <div class="offre-body">
+                        <h3 class="offre-name">Livreur VL (H/F)</h3>
+                        <p class="offre-meta">Petite-Terre · CDD</p>
+                        <p class="offre-desc">
+                            Livraisons locales, relation clients et respect des tournées définies par l’entreprise.
+                        </p>
+                        <a href="#" class="offre-link">Voir l’offre</a>
+                    </div>
+                </article>
+                </div>
+
+                <div class="offres-actions">
+                    <a href="#" class="offres-all-link">Voir toutes nos offres</a>
+                </div>
+            </div>
+        </section>
+
+        <!--POURQUOI EUREKA + PROCESSUS DE RECRUTEMENT-->
+        <section id="pourquoi-eureka" class="section-why-process">
+            <div class="why-process-inner">
+
+                <!-- Colonne 1 : Pourquoi EUREKA -->
+                <article class="why-col">
+                    <h2 class="why-title">Pourquoi choisir EUREKA Intérim Mayotte&nbsp;?</h2>
+                    <p class="why-intro">
+                        Nous accompagnons les candidats à chaque étape de leur parcours, avec une approche humaine et une excellente connaissance du marché mahorais.
+                    </p>
+
+                    <ul class="why-list">
+                        <li>Une agence de proximité, basée à Mayotte.</li>
+                        <li>Des missions adaptées à votre profil et à votre projet.</li>
+                        <li>Un suivi personnalisé pendant toute la durée de la mission.</li>
+                        <li>Des opportunités dans plusieurs secteurs d’activité.</li>
+                        <li>Une équipe réactive, à l’écoute de vos besoins.</li>
+                    </ul>
+                </article>
+
+                <!-- Colonne 2 : Carte équipe de recrutement -->
+                <article class="team-card">
+                    <div class="team-image">
+                        <!-- Mets ici le bon chemin de ton image -->
+                        
+                        <picture class="offre-image">
+  
+                            <!-- Version WebP (prioritaire) -->
+                            <source
+                                type="image/webp"
+                                srcset="
+                                assets/img/equipe_eureka-1280.webp 1280w,
+                                assets/img/equipe_eureka-960.webp 960w,
+                                assets/img/equipe_eureka-640.webp 640w
+                                "
+                                sizes="(max-width: 640px) 100vw,
+                                    (max-width: 960px) 50vw,
+                                    33vw">
+
+                            <!-- Version JPG (fallback) -->
+                            <source
+                                type="image/jpeg"
+                                srcset="
+                                assets/img/equipe_eureka-1280.jpg 1280w,
+                                assets/img/equipe_eureka-960.jpg 960w,
+                                assets/img/equipe_eureka-640.jpg 640w
+                                "
+                                sizes="(max-width: 640px) 100vw,
+                                    (max-width: 960px) 50vw,
+                                    33vw">
+
+                            <!-- Fallback ultime (obligatoire) -->
+                            <img
+                                src="assets/img/equipe_eureka-640.jpg"
+                                alt="Équipe de recrutement d’EUREKA Intérim Mayotte accueillant un candidat"
+                                width="640"
+                                height="480"
+                                loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="team-body">
+                        <h2 class="team-title-colored">Une équipe engagée</h2>
+                        <p>
+                            À l’écoute, disponible, et déterminée à vous trouver la bonne mission.
+                        </p>
+                        <p class="team-highlight-colored">
+                            Rencontrez-nous à l’agence
+                        </p>
+                    </div>
+
+
+
+                </article>
+
+                <!-- Colonne 3 : Processus de recrutement -->
+                <article id="processus" class="process-col">
+                    <h2>Processus de recrutement</h2>
+                    <p class="process-intro">
+                        Un parcours simple et clair pour vous accompagner de la première prise de contact jusqu’à la mission.
+                    </p>
+
+                    <ol class="process-steps">
+                        <li>
+                        <h3>1. Prise de contact</h3>
+                        <p>Vous déposez votre CV en ligne ou passez directement à l’agence pour présenter votre situation.</p>
+                        </li>
+                        <li>
+                        <h3>2. Entretien & sélection</h3>
+                        <p>Nous échangeons avec vous sur vos compétences, vos envies et vos disponibilités, puis nous vous proposons des missions adaptées.</p>
+                        </li>
+                        <li>
+                        <h3>3. Mise en mission & suivi</h3>
+                        <p>Vous démarrez votre mission et nous restons à vos côtés pour assurer un suivi régulier avec vous et l’entreprise.</p>
+                        </li>
+                    </ol>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ======= Contact ======= -->
+        <section id="contact" class="contact" aria-labelledby="titre-contact">
+            <div class="container contact-grid">
+
+                <!-- Colonne gauche : formulaire -->
+                <div class="contact-form-wrap">
+                <h2 id="titre-contact" class="section-title">Contact</h2>
+                <p class="contact-intro">
+                    Une question, un projet ou une collaboration ? Écrivez-nous, notre équipe vous répond rapidement.
+                </p>
+
+                <!-- 🔁 FORMSPREE ICI -->
+                <form id="contactForm"
+                    class="contact-form"
+                    action="https://formspree.io/f/xyzlknlj"
+                    method="POST"
+                    autocomplete="on">
+
+
+                    <!-- Champ anti-spam (honeypot) -->
+                    <div class="hp-field" aria-hidden="true">
+                    <label for="website">Votre site (laisser vide)</label>
+                    <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <!-- Optionnel : sujet personnalisé dans l'email Formspree -->
+                    <input type="hidden" name="_subject" value="Nouveau message depuis le site ALOMAYJOB">
+
+                    <!-- Optionnel : adresse de réponse (utilisée par certains clients mail) -->
+                    <input type="hidden" name="_replyto" value="">
+
+                    <div class="form-row">
+                    <div class="form-field">
+                        <label for="prenom">Prénom*</label>
+                        <input id="prenom" name="prenom" type="text" required placeholder="Ex. Amina">
+                    </div>
+                    <div class="form-field">
+                        <label for="nom">Nom*</label>
+                        <input id="nom" name="nom" type="text" required placeholder="Ex. Ibrahim">
+                    </div>
+                    </div>
+
+                    <div class="form-row">
+                    <div class="form-field">
+                        <label for="email">Email*</label>
+                        <input id="email" name="email" type="email" required placeholder="nom@exemple.com">
+                    </div>
+                    <div class="form-field">
+                        <label for="tel">Téléphone</label>
+                        <input id="tel" name="tel" type="tel" placeholder="+262 …">
+                    </div>
+                    </div>
+
+                    <div class="form-field">
+                    <label for="sujet">Sujet*</label>
+                    <input id="sujet" name="sujet" type="text" required placeholder="Objet de votre message">
+                    </div>
+
+                    <div class="form-field">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Expliquez votre besoin en quelques lignes…"></textarea>
+                    </div>
+
+                    <div class="form-consent">
+                    <label class="checkbox">
+                        <input type="checkbox" name="rgpd" required>
+                        <span>J’accepte que mes données soient utilisées pour me recontacter (RGPD).</span>
+                    </label>
+                    </div>
+
+                    <div class="form-actions">
+                    <button class="btn-ghost" type="submit">Envoyer</button>
+                    <p class="form-note">* Champs obligatoires</p>
+                    </div>
+
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+
+                </form>
+                </div>
+
+                <!-- Colonne droite : carte de géolocalisation -->
+                <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.87453804798!2d45.168245315216045!3d-12.780849690973814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x22c9a54d27a4b9f9%3A0xdeb5a8fdf734b55c!2sMamoudzou%2C%20Mayotte!5e0!3m2!1sfr!2syt!4v1700000000000!5m2!1sfr!2syt"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Plus tard : tu ajouteras ici les sections Candidats, Entreprises, Offres, Contact -->
+    </main>
+
+    <!-- Footer simple provisoire -->
+    <footer class="site-footer" aria-label="Pied de page ALOMAYJOB Holding">
+        <div class="container footer-grid">
+
+            <!-- Colonne 1 : Logo + présentation -->
+            <div class="footer-brand">
+            <img src="assets/img/logo_eureka_dore.png" alt="Logo ALOMAYJOB Holding" class="footer-logo" loading="lazy">
+            <p>
+                EREKA MAYOTTE - Solutions pour l'emploi, l'insertion, l'intérim, et le recrutement.
+            </p>
+            </div>
+
+            <!-- Colonne 2 : Liens du menu -->
+            <nav class="footer-nav" aria-label="Liens utiles">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#apropos">Candidats</a></li>
+                <li><a href="#valeurs">Entreprises</a></li>
+                <li><a href="#entites">Offres d'emploi</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+
+            <!-- Colonne 3 : Coordonnées -->
+            <div class="footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li><i class="icon">📧</i> <a href="mailto:contact@tondomaine.com">contact@alomayjob.com</a></li>
+                <li><i class="icon">📞</i> <a href="tel:+262XXXXXXX">+262 6 39 61 38 39</a></li>
+                <li><i class="icon">📍</i> Mayotte (976)</li>
+            </ul>
+            <div class="contact-social">
+                <h3>Réseaux</h3>
+
+                <ul class="social-links social-inline">
+                <li>
+                    <a href="#" aria-label="LinkedIn ALOMAYJOB">
+                    <img src="assets/img/social/logo_linkedin_trans.png" alt="Logo LinkedIn" class="social-icon">
+                    LinkedIn
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" aria-label="Facebook ALOMAYJOB">
+                    <img src="assets/img/logo_facebook.png" alt="Logo Facebook" class="social-icon">
+                    Facebook
+                    </a>
+                </li>
+                </ul>
+
+            </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Ligne du bas -->
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> EUREKA Mayotte — Tous droits réservés</p>
+            <p><a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+</html>

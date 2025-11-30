@@ -31,6 +31,11 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
+
+        button class="menu-toggle" aria-label="Ouvrir le menu">
+            <span></span><span></span><span></span>
+        </button>
+
     </div>
 </header>
 
@@ -498,6 +503,24 @@
 </script>
 
 <script src="/assets/js/candidats/animation_carte.js"> </script>
+
+<script src="/assets/js/candidats/menu_mobile.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
+
+    console.log(menuBtn, nav); // Vérification
+
+    if (menuBtn && nav) {
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    }
+});
+</script>
+
 
 
 </body>

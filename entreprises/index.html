@@ -30,31 +30,37 @@
     <header id="header" class="header">
         <div class="container header-container">
 
-        <a href="/" class="logo" aria-label="EUREKA Mayotte accueil">
+            <!-- Logo -->
+            <a href="/" class="logo">
             <img src="../assets/img/logo_eureka.webp" alt="Logo EUREKA Mayotte" class="logo-img">
             <div class="logo-text-group">
                 <span class="logo-main">EUREKA</span>
                 <span class="logo-sub">Mayotte</span>
             </div>
-        </a>
+            </a>
 
-        <nav id="navbar" class="navbar" aria-label="Navigation principale">
-            <ul class="nav-list">
-            <li><a href="/" class="nav-link">Accueil</a></li>
-            <li><a href="#" class="nav-link active" aria-current="page">Entreprises</a></li>
-            <li><a href="/contact" class="nav-link">Contact</a></li>
+            <!-- Checkbox contrôleur du menu -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menu mobile">
+
+            <!-- Bouton burger -->
+            <label for="nav-toggle" class="nav-toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            </label>
+
+            <!-- Navigation -->
+            <nav class="main-nav">
+            <ul>
+                <li><a href="/" class="nav-link">Accueil</a></li>
+                <li><a href="#" class="nav-link active">Entreprises</a></li>
+                <li><a href="/contact" class="nav-link">Contact</a></li>
             </ul>
-
-            <!-- Si tu as déjà un toggle dans styles_eureka.css, garde-le -->
-            <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
-            <span class="nav-toggle-bar"></span>
-            <span class="nav-toggle-bar"></span>
-            <span class="nav-toggle-bar"></span>
-            </button>
-        </nav>
+            </nav>
 
         </div>
     </header>
+
 
 
     <main id="main">

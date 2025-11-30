@@ -236,6 +236,66 @@ a {
   }
 }
 
+/* ===== HEADER MOBILE (même système que la page Candidats) ===== */
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-btn {
+  display: none;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+.nav-toggle-btn span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 2px;
+  margin: 4px 0;
+}
+
+/* Menu desktop */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+/* Menu mobile */
+@media (max-width: 900px) {
+
+  .nav-toggle-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav ul {
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    background: #0e1528;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    display: none; /* hidden by default */
+    z-index: 1500;
+  }
+
+  .nav-toggle:checked ~ .main-nav ul {
+    display: flex;
+  }
+}
+
+
 /* =====================================================
    HERO ENTREPRISES
 ===================================================== */

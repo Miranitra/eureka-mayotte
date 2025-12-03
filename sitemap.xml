@@ -3,28 +3,28 @@
 
   <!-- Page d'accueil -->
   <url>
-    <loc>https://www.eureka-mayotte.com/</loc>
+    <loc>https://www.eureka-mayotte.fr/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- Page Candidats -->
   <url>
-    <loc>https://www.eureka-mayotte.com/candidats/</loc>
+    <loc>https://www.eureka-mayotte.fr/candidats/</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- Page Entreprises -->
   <url>
-    <loc>https://www.eureka-mayotte.com/entreprises/</loc>
+    <loc>https://www.eureka-mayotte.fr/entreprises/</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- Page Contact -->
   <url>
-    <loc>https://www.eureka-mayotte.com/contact/</loc>
+    <loc>https://www.eureka-mayotte.fr/contact/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
